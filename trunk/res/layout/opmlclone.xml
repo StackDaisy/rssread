@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    >
+
+
+
+
+
+<ListView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff"
+	android:cacheColorHint="#ffffff"
+	android:gravity="center"
+	 android:divider="#bbbbbb" 
+	  android:dividerHeight="1px"
+	  android:paddingLeft="5px"
+	android:id="@+id/itemlist" /> 
+	  
+	<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="返回"
+	android:id="@+id/back" android:layout_alignParentBottom="true" android:visibility="gone"/>    
+	  
+</RelativeLayout>
