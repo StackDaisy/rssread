@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RadioGroup android:id="@+id/myRadioGroup"
+		android:layout_width="fill_parent" android:orientation="vertical"
+		android:layout_height="wrap_content">
+		<!--第一個RadioButton -->
+		<RadioButton android:id="@+id/myRadioButton1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="输入频道网址（RSS)" android:checked="true" />
+		<!--第二個RadioButton -->
+		<RadioButton android:id="@+id/myRadioButton2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="输入频道（OMPL)" />
+	</RadioGroup>
+
+
+
+
+
+	<TextView android:text="请 输入网址:" android:id="@+id/TextView02"
+	
+		android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="18sp"></TextView>
+<EditText android:text="http://rss.sina.com.cn/sina_all_opml.xml" android:id="@+id/EditUrl"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+
+	
+	<TextView android:text="请输入标题: " android:id="@+id/TextView01" android:textSize="18sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<EditText android:text="" android:id="@+id/EditTitle"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+
+</LinearLayout>
